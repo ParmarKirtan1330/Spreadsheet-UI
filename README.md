@@ -1,41 +1,34 @@
-# vite React TypeScript tailwindcss starter
+# 📊 Spreadsheet-UI
 
-Template for vite, React + tailwindcss + TypeScript projects with some tools preconfigured.
+A clean, responsive, and interactive spreadsheet-like interface built using **React + Tailwind CSS**, inspired by **Google Sheets** and **Airtable**.
 
-## About
+---
 
-Template for vite, React + tailwindcss + TypeScript projects with some tools preconfigured.
+## 🚀 Features
 
-![Screenshot](assets/screenshot.png)
+- Spreadsheet table layout with row numbering
+- Editable cells with keyboard navigation (`Enter`, `Tab`, `Arrow keys`)
+- Custom dropdown chips for fields like **Status**, **Priority**, etc.
+- Colored chip-style tags for better UX
+- Add new rows dynamically
+- Multiple tabs at bottom to switch between views
+- Modular structure (Header, Toolbar, Bottom Tab, SheetTabs, Table)
 
-### Libraries
+---
 
-- [React 18](https://reactjs.org/)
-- [React Router 6](https://reactrouter.com)
-- [tailwindcss 3](https://tailwindcss.com/)
-  - [tailwindcss forms plugin](https://tailwindcss-forms.vercel.app/)
-- [TypeScript 4.9.5](https://www.typescriptlang.org/)
-- [vite 4](https://vitejs.dev/)
-- [vitetest](https://vitest.dev/)
+## 🛠 Tech Stack
 
-### Tools
+- ⚛️ React
+- 💨 Tailwind CSS
+- 🧠 TypeScript (optional if you’re using `.tsx`)
+- 🗃️ Vite (for fast development)
 
-- [commitlint 17](https://commitlint.js.org)
-- [Conventional Commits 1](https://www.conventionalcommits.org)
-- [editorconfig](https://editorconfig.org/)
-- [eslint 8](https://eslint.org/)
-- [husky 8](https://typicode.github.io/husky/#/)
-- [Prettier 2](https://prettier.io/)
-- [VS Code settings](https://code.visualstudio.com/)
+---
 
-## Usage
-
-Create a new project from this template by clicking the "Use this template" button:
-
-![](assets/template-usage.png)
+## 🔧 Installation
 
 ```bash
-yarn
-yarn dev
-yarn test
-```
+git clone https://github.com/your-username/Spreadsheet-UI.git
+cd Spreadsheet-UI
+npm install
+npm run dev
